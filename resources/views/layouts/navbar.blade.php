@@ -8,13 +8,22 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-                        <li class="nav-item"><a class="nav-link" href="#announcements">Announcements</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#location">Location</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-                        <li class="nav-item"><a class="nav-link btn btn-warning" href="/login">Login</a></li>
-                      <!--  <a class="btn btn-primary btn-xl text-uppercase" href="#announcements">Tell Me More</a>-->
+                        @if ( url()->current() ==url("/"))
+                            <li class="nav-item"><a class="nav-link" href="#announcements">Announcements</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#location">Location</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                            <li class="nav-item"><a class="nav-link btn btn-warning" href="{{ url('/login')}}">Login</a></li>
+                        @else
+                            <li class="nav-item"><a class="nav-link" href="{{ url('/')}}#announcements">Announcements</a></li>
+                            <li class="nav-item"><a class="nav-link" href="{{ url('/')}}#menu">Menu</a></li>
+                            <li class="nav-item"><a class="nav-link" href="{{ url('/')}}#about">About</a></li>
+                            <li class="nav-item"><a class="nav-link" href="{{ url('/')}}#location">Location</a></li>
+                            <li class="nav-item"><a class="nav-link" href="{{ url('/')}}#contact">Contact</a></li>
+                            <li class="nav-item"><a class="nav-link btn btn-warning" href="{{ url('/login')}}">Login</a></li>
+
+                        @endif
                     </ul>
                 </div>
             </div>
