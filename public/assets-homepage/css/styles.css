@@ -11360,10 +11360,10 @@ p {
 #mainNav .navbar-brand img {
   height: 1.5rem;
 }
-#mainNav .navbar-nav .nav-item .nav-link {/*color sa font sa navbar : red*/
+#mainNav .navbar-nav .nav-item .nav-link {/*color sa font sa navbar : white*/
   font-family: "Impact", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 0.95rem;
-  color: #FF0000;
+  color: #fff;
   letter-spacing: 0.0625em;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
@@ -11410,7 +11410,7 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background: rgba(0,0,0,0.7) url("../assets-homepage/assets/img/head-bg.jpg");
+  background: rgba(0,0,0,0.7) url("../../assets-homepage/assets/img/bg-header.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -11721,9 +11721,10 @@ header.masthead .masthead-heading {
 
 section#contact {
   background-color: #212529;
-  background-image: url("../assets-homepage/assets/img/contact/cotact.jpg");
+  background: rgba(0,0,0,0.7) url("../../assets-homepage/assets/img/contact/1.jpg");
   background-repeat: no-repeat;
   background-position: center;
+  background-blend-mode: darken;
 }
 section#contact .section-heading {
   color: #fff;
