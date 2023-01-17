@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\PagesController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,10 +14,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('homepage');
-});
+Route::get('/', [PagesController::class, 'index']);
 
-Route::get('/gallery', function () {
-    return view('gallery');
-});
+Route::get('/login',[PagesController::class, 'login']);
+ 
