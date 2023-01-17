@@ -13,7 +13,7 @@
                         <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
                         <li class="nav-item"><a class="nav-link" href="#location">Location</a></li>
                         <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-                        <li class="nav-item"><a class="nav-link btn btn-info" href="/login">Login</a></li>
+                        <li class="nav-item"><a class="nav-link btn btn-warning" href="/login">Login</a></li>
                       <!--  <a class="btn btn-primary btn-xl text-uppercase" href="#announcements">Tell Me More</a>-->
                     </ul>
                 </div>
