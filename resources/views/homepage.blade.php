@@ -26,7 +26,7 @@
             <div class="container">
                 <div class="masthead-subheading">안녕 Annyeong!</div>
                 <div class="masthead-heading text-uppercase">Samgyeopsalanz</div>
-                <a class="btn btn-primary btn-xl text-uppercase" href="#announcements">Tell Me More</a>
+                <a class="btn btn-primary btn-xl text-uppercase" href="#announcements">About</a>
             </div>
         </header>
         <!-- Announcements-->
@@ -284,7 +284,7 @@
                     <div class="col-lg-4 text-lg-start">Copyright &copy; Your Website 2022</div>
                     <div class="col-lg-4 my-3 my-lg-0">
                         <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="https://www.facebook.com/Samgyeopsalanz" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
                         <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
                     </div>
                     <div class="col-lg-4 text-lg-end">
