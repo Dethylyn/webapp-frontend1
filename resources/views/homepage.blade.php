@@ -26,7 +26,7 @@
             <div class="container">
                 <div class="masthead-subheading">안녕 Annyeong!</div>
                 <div class="masthead-heading text-uppercase">Samgyeopsalanz</div>
-                <a class="btn btn-primary btn-xl text-uppercase" href="#announcements">About</a>
+                <a class="btn btn-primary btn-xl text-uppercase" href="#announcements">About Us</a>
             </div>
         </header>
         <!-- Announcements-->
@@ -34,42 +34,116 @@
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Announcements</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h3 class="section-subheading text-muted">We Offer Unlimited Samgyeopsal.</h3>
                 </div>
                 <div class="row text-center">
                     <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3">E-Commerce</h4>
-                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="../../assets-homepage/assets/img/announcement/2.jpg" alt="..." /></div>
+                        <h4 class="my-3">Premium Meat Cuts</h4>
+                        <p class="text-muted">Beef and Pork that are produces with only natural foods.</p>
                     </div>
                     <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3">Responsive Design</h4>
-                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets-homepage/assets/img/announcement/3.jpg" alt="..." /></div>
+                        <h4 class="my-3">Authentic Korean Side Dishes</h4>
+                        <p class="text-muted">Side dishes that are cooked with the soul and taste of Korea.</p>
                     </div>
                     <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3">Web Security</h4>
-                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="../../assets-homepage/assets/img/announcement/4.jpg" alt="..." /></div>
+                        <h4 class="my-3">Unlimited Rice</h4>
+                        <p class="text-muted">Unlimited Rice that makes your meal satisfy.</p>
                     </div>
                 </div>
+
+                
+                {{-- <div class="container">
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+
+      <div class="item active">
+        <img src="../../assets-homepage/assets/img/slide1.jpg" alt="Los Angeles" style="width:50%;">
+        <div class="carousel-caption">
+          <h3>Los Angeles</h3>
+          <p>LA is always so much fun!</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="../../assets-homepage/assets/img/slide2.jpg" alt="Chicago" style="width:50%;">
+        <div class="carousel-caption">
+          <h3>Chicago</h3>
+          <p>Thank you, Chicago!</p>
+        </div>
+      </div>
+    
+      <div class="item">
+        <img src="./../assets-homepage/assets/img/slide2.jpg" alt="New York" style="width:150%;">
+        <div class="carousel-caption">
+          <h3>New York</h3>
+          <p>We love the Big Apple!</p>
+        </div>
+      </div>
+  
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div> --}}
+        {{-- <div class="carousel-item">
+            <div class="d-flex justify-content-center">
+             <img src="img.png" alt="img.png">
             </div>
+        </div> --}}
+        <div class="main-carousel">
+
+            <div class="cell"><img src="../../assets-homepage/assets/img/slide/slide1.png"></div>
+            <div class="cell"><img src="../../assets-homepage/assets/img/slide/slide2.png"></div>
+            <div class="cell"><img src="../../assets-homepage/assets/img/slide/slide3.png"></div>
+            <div class="cell"><img src="../../assets-homepage/assets/img/slide/slide4.png"></div>
+            <div class="cell"><img src="../../assets-homepage/assets/img/slide/slide5.png"></div>
+            <div class="cell"><img src="../../assets-homepage/assets/img/slide/slide6.png"></div>
+            <div class="cell"><img src="../../assets-homepage/assets/img/slide/slide7.png"></div>
+            <div class="cell"><img src="../../assets-homepage/assets/img/slide/slide8.png"></div>
+            <div class="cell"><img src="../../assets-homepage/assets/img/slide/slide9.png"></div>
+            <div class="cell"><img src="../../assets-homepage/assets/img/slide/slide11.png"></div>
+            <div class="cell"><img src="../../assets-homepage/assets/img/slide/slide12.png"></div>
+
+             </div>
+             <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+            <script type="text/javascript">
+             $('.main-carousel').flickity({
+            // options
+            cellAlign: 'left',
+            wrapAround:true,
+            freeScroll: true
+          });
+        </script>
+        </section>
+            </div> 
+            
+
         </section>
         <!-- Menu Grid-->
         <section class="page-section bg-light" id="menu">
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Menu</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h3 class="section-subheading text-muted">We Offer Unlimited Samgyeopsal.</h3>
                 </div>
                 <div class="row">
                     <div class="col-lg-7 col-sm-6 mb-4">
@@ -82,8 +156,8 @@
                                 <img class="img-fluid" src="assets-homepage/assets/img/menu/1.jpg" alt="..." />
                             </a>
                             <div class="menu-caption">
-                                <div class="menu-caption-heading">Threads</div>
-                                <div class="menu-caption-subheading text-muted">Illustration</div>
+                                {{-- <div class="menu-caption-heading">Threads</div>
+                                <div class="menu-caption-subheading text-muted">Illustration</div> --}}
                             </div>
                         </div>
                     </div>
@@ -97,8 +171,8 @@
                                 <img class="img-fluid" src="assets-homepage/assets/img/menu/2.jpg" alt="..." />
                             </a>
                             <div class="menu-caption">
-                                <div class="menu-caption-heading">Explore</div>
-                                <div class="menu-caption-subheading text-muted">Graphic Design</div>
+                                {{-- <div class="menu-caption-heading">Explore</div>
+                                <div class="menu-caption-subheading text-muted">Graphic Design</div> --}}
                             </div>
                         </div>
                     </div>
@@ -108,58 +182,54 @@
         <section class="page-section" id="about">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">About</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h2 class="section-heading text-uppercase">Guidelines for our valuable customer</h2>
+                    <h3 class="section-subheading text-muted"></h3>
                 </div>
                 <ul class="timeline">
                     <li>
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets-homepage/assets/img/about/1.jpg" alt="..." /></div>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets-homepage/assets/img/about/time.jpg" alt="..." /></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
-                                <h4>2009-2011</h4>
-                                <h4 class="subheading">Our Humble Beginnings</h4>
+                                <h4>TIME LIMIT</h4>
                             </div>
-                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                            <div class="timeline-body"><p class="text-muted">Two(20) hours duration will be given to the customers. Time starts when the customers occupied their table. This will be monitored by the crew of the restaurant. If the customer exceeds on the given time, the next order will be charged as another set pf order</p></div>
                         </div>
                     </li>
                     <li class="timeline-inverted">
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets-homepage/assets/img/about/2.jpg" alt="..." /></div>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets-homepage/assets/img/about/queueing-system.png" alt="..." /></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
-                                <h4>March 2011</h4>
-                                <h4 class="subheading">An Agency is Born</h4>
+                                <h4>QUEUEING SYSTEM</h4>
                             </div>
-                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                            <div class="timeline-body"><p class="text-muted">Kindly enlist your name in the guest log. Please wait for your name to be called. If in case you are not in the premises after your name has been called trice, we shall open the availability of the table to the next in line.</p></div>
                         </div>
                     </li>
                     <li>
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets-homepage/assets/img/about/3.jpg" alt="..." /></div>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets-homepage/assets/img/about/no-left-over.jpg" alt="..." /></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
-                                <h4>December 2015</h4>
-                                <h4 class="subheading">Transition to Full Service</h4>
+                                <h4>PENALTY FOR LEFTOVER</h4>
                             </div>
-                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                            <div class="timeline-body"><p class="text-muted">For every 100g leftover meat cooked or uncooked, 100 pesos will be charged per table and 30 pesos for rice leftover.</p></div>
                         </div>
                     </li>
                     <li class="timeline-inverted">
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets-homepage/assets/img/about/4.jpg" alt="..." /></div>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets-homepage/assets/img/about/pets-not-allowed.jpeg" alt="..." /></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
-                                <h4>July 2020</h4>
-                                <h4 class="subheading">Phase Two Expansion</h4>
+                                <h4>PETS ARE NOT ALLOWED</h4>
                             </div>
-                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                            <div class="timeline-body"><p class="text-muted">For the health and safety of others, please no pets in eating area/indoor.</p></div>
                         </div>
                     </li>
                     <li class="timeline-inverted">
                         <div class="timeline-image">
                             <h4>
-                                Be Part
+                                FIRST
                                 <br />
-                                Of Our
+                                COME
                                 <br />
-                                Story!
+                                FIRST SERVE
                             </h4>
                         </div>
                     </li>
@@ -171,7 +241,7 @@
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Our Location</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h3 class="section-subheading text-muted">District 8, Nasipit, Agusan del Norte</h3>
                 </div>
                 <div class="row">
                     <div class="col-lg-18">
@@ -189,9 +259,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="row">
+                {{-- <div class="row">
                     <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p></div>
-                </div>
+                </div> --}}
             </div> 
         </section>
         <!-- Clients-->
@@ -218,7 +288,7 @@
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Contact Us</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    {{-- <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3> --}}
                 </div>
                 <!-- * * * * * * * * * * * * * * *-->
                 <!-- * * SB Forms Contact Form * *-->
@@ -305,10 +375,10 @@
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project details-->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    {{-- <h2 class="text-uppercase">Project Name</h2>
+                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p> --}}
                                     <img class="img-fluid d-block mx-auto" src="assets-homepage/assets/img/menu/1.jpg" alt="..." />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                    {{-- <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                                     <ul class="list-inline">
                                         <li>
                                             <strong>Client:</strong>
@@ -318,10 +388,10 @@
                                             <strong>Category:</strong>
                                             Illustration
                                         </li>
-                                    </ul>
+                                    </ul> --}}
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                         <i class="fas fa-xmark me-1"></i>
-                                        Close Project
+                                        Close
                                     </button>
                                 </div>
                             </div>
@@ -340,10 +410,10 @@
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project details-->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    {{-- <h2 class="text-uppercase">Project Name</h2>
+                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p> --}}
                                     <img class="img-fluid d-block mx-auto" src="assets-homepage/assets/img/menu/2.jpg" alt="..." />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                    {{-- <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                                     <ul class="list-inline">
                                         <li>
                                             <strong>Client:</strong>
@@ -353,10 +423,10 @@
                                             <strong>Category:</strong>
                                             Graphic Design
                                         </li>
-                                    </ul>
+                                    </ul> --}}
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                         <i class="fas fa-xmark me-1"></i>
-                                        Close Project
+                                        Close
                                     </button>
                                 </div>
                             </div>
